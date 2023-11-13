@@ -5,7 +5,9 @@ This Flight Information System module provides various functions to retrieve inf
 
 # Instructions
 Step 1: Create an app.js file in vs code  
+
 Step 2: Put this code in app.js file const **flightInformationSystem = require("./flightInformationSystem.js");**  
+
 Step 3: Console.log functions to use functions for example **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));** 
 
 # **Sample Flight Data**  
