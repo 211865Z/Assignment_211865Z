@@ -48,11 +48,17 @@ Flight Information: {
 }
 
 **Search Available Flights**  
+
 Search for available flights between two locations (origin and destination).  
+
 The datatype written in the function must be type **String**,**String**  
+
 Example code:  
+
 **console.log('Avaliable Specific Flight Information:', flightInformationSystem.searchAvailableFlights("Malaysia", "Singapore"));**  
+
 Expected Ouput:  
+
 Avaliable Specific Flight Information: {
   flightNumber: 'XYZ789',
   origin: 'Malaysia',
@@ -62,23 +68,35 @@ Avaliable Specific Flight Information: {
   airline: 'AirAsia X'
 }
 
-**Search Airport Times**
+**Search Airport Times**  
+
 Search for arrival and departure times for a specific airport location.  
+
 The datatype written in the function must be type **String**  
+
 Example code:  
-**console.log('Airport Flight Times:', flightInformationSystem.searchAirportTimes("Indonesia"));**
+
+**console.log('Airport Flight Times:', flightInformationSystem.searchAirportTimes("Indonesia"));**  
+
 Expected Ouput:  
+
 Airport Flight Times: {
   arrivalTimes: [],
   departureTimes: [ { flightNumber: 'ABC123', departureTime: '08:00' } ]
 }
 
-**Find Flights by Airline**
-Find flights operated by a specific airline.
-The datatype written in the function must be type **String**
-Example code:
-**console.log('Flights Operated By Specific Airlines:', flightInformationSystem.findFlightsByAirline("Singapore Airlines"));**
-Expected Ouput:
+**Find Flights by Airline**  
+
+Find flights operated by a specific airline.  
+
+The datatype written in the function must be type **String**  
+
+Example code:  
+
+**console.log('Flights Operated By Specific Airlines:', flightInformationSystem.findFlightsByAirline("Singapore Airlines"));**  
+
+Expected Ouput:  
+
 Flights Operated By Specific Airlines: [
   {
     flightNumber: '5AHFR9',
@@ -98,14 +116,21 @@ Flights Operated By Specific Airlines: [
   }
 ]
 
-**Get All Destinations**
-Retrieve a list of all unique destinations.
-The datatype written in the function is not **needed**
-Example code:
-**console.log('All Destinations:', flightInformationSystem.getAllDestinations());**
-Expected Ouput:
+**Get All Destinations**  
+
+Retrieve a list of all unique destinations.  
+
+The datatype written in the function is not **needed**  
+
+Example code:  
+
+**console.log('All Destinations:', flightInformationSystem.getAllDestinations());**  
+
+Expected Ouput:  
+
 All Destinations: [ 'Singapore', 'Malaysia', 'China' ]
 
 # Note
-The sample flight data provided is for demonstration purposes. You can add more flight data as needed.
+The sample flight data provided is for demonstration purposes. You can add more flight data as needed.  
+
 Ensure to replace function calls with the actual name of the module object if you're not using the provided sample.
