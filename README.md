@@ -36,7 +36,8 @@ Example code:
 
 **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));**  
 
-Expected Ouput:
+Expected Ouput:  
+
 Flight Information: {
   flightNumber: 'ABC123',
   origin: 'Indonesia',
