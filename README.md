@@ -9,7 +9,8 @@ Step 1: Create an app.js file in vs code
 
 Step 2: Put this code in app.js file const **flightInformationSystem = require("./flightInformationSystem.js");**  
 
-Step 3: Console.log functions to use functions for example **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));** 
+Step 3: Console.log functions to use functions for example 
+**console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));** 
 
 # **Sample Flight Data**  
 For demonstration purposes, sample flight data is included in the module:  
@@ -26,10 +27,15 @@ For demonstration purposes, sample flight data is included in the module:
     
 # Functions Descriptions And How To Use These Function    
 **Get Flight Information**  
+
 Retrieve detailed information about a specific flight using its flight number.  
+
 The datatype written in the function must be type **String**  
+
 Example code:  
-**console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));**
+
+**console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));**  
+
 Expected Ouput:
 Flight Information: {
   flightNumber: 'ABC123',
