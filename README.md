@@ -1,20 +1,15 @@
-# Assignment 1
+# Assignment 1(Look at code in this readme file instead of preview)
 
 **Flight Information System**  
-
 This Flight Information System module provides various functions to retrieve information about flights, search for available flights, find airport times, locate flights operated by specific airlines, and obtain a list of unique destinations.
 
 # Instructions
 Step 1: Create an app.js file in vs code  
-
 Step 2: Put this code in app.js file const **flightInformationSystem = require("./flightInformationSystem.js");**  
-
 Step 3: Console.log functions to use functions for example **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));** 
 
 # **Sample Flight Data**  
-
 For demonstration purposes, sample flight data is included in the module:  
-
  // Sample flight data (for demonstration purposes)
     flights: [
         // Flight details including flight number, origin, destination, departure, arrival, and airline
@@ -27,13 +22,9 @@ For demonstration purposes, sample flight data is included in the module:
     
 # Functions Descriptions And How To Use These Function    
 **Get Flight Information**  
-
 Retrieve detailed information about a specific flight using its flight number.  
-
 The datatype written in the function must be type **String**  
-
 Example code:  
-
 **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));**
 Expected Ouput:
 Flight Information: {
@@ -46,17 +37,11 @@ Flight Information: {
 }
 
 **Search Available Flights**  
-
 Search for available flights between two locations (origin and destination).  
-
 The datatype written in the function must be type **String**,**String**  
-
 Example code:  
-
 **console.log('Avaliable Specific Flight Information:', flightInformationSystem.searchAvailableFlights("Malaysia", "Singapore"));**  
-
 Expected Ouput:  
-
 Avaliable Specific Flight Information: {
   flightNumber: 'XYZ789',
   origin: 'Malaysia',
@@ -68,14 +53,10 @@ Avaliable Specific Flight Information: {
 
 **Search Airport Times**
 Search for arrival and departure times for a specific airport location.  
-
 The datatype written in the function must be type **String**  
-
 Example code:  
-
 **console.log('Airport Flight Times:', flightInformationSystem.searchAirportTimes("Indonesia"));**
 Expected Ouput:  
-
 Airport Flight Times: {
   arrivalTimes: [],
   departureTimes: [ { flightNumber: 'ABC123', departureTime: '08:00' } ]
