@@ -27,7 +27,7 @@ For demonstration purposes, sample flight data is included in the module:
     ],
     
 # Functions Descriptions And How To Use These Function    
-**Get Flight Information**  
+# **Get Flight Information**  
 
 Retrieve detailed information about a specific flight using its flight number.  
 
@@ -48,7 +48,7 @@ Flight Information: {
   airline: 'Batik Air'
 }
 
-**Search Available Flights**  
+# **Search Available Flights**  
 
 Search for available flights between two locations (origin and destination).  
 
@@ -69,7 +69,7 @@ Avaliable Specific Flight Information: {
   airline: 'AirAsia X'
 }
 
-**Search Airport Times**  
+# **Search Airport Times**  
 
 Search for arrival and departure times for a specific airport location.  
 
@@ -86,7 +86,7 @@ Airport Flight Times: {
   departureTimes: [ { flightNumber: 'ABC123', departureTime: '08:00' } ]
 }
 
-**Find Flights by Airline**  
+# **Find Flights by Airline**  
 
 Find flights operated by a specific airline.  
 
@@ -117,7 +117,7 @@ Flights Operated By Specific Airlines: [
   }
 ]
 
-**Get All Destinations**  
+# **Get All Destinations**  
 
 Retrieve a list of all unique destinations.  
 
