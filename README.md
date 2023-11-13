@@ -4,9 +4,9 @@
 This Flight Information System module provides various functions to retrieve information about flights, search for available flights, find airport times, locate flights operated by specific airlines, and obtain a list of unique destinations.
 
 # Instructions
-Step 1: Create an app.js file in vs code
-Step 2: Put this code in app.js file const **flightInformationSystem = require("./flightInformationSystem.js");**
-Step 3: Console.log functions to use functions for example **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));**
+## Step 1: Create an app.js file in vs code
+## Step 2: Put this code in app.js file const **flightInformationSystem = require("./flightInformationSystem.js");**
+## Step 3: Console.log functions to use functions for example **console.log('Flight Information:', flightInformationSystem.getFlightInformation("ABC123"));**
 
 **Sample Flight Data**
 For demonstration purposes, sample flight data is included in the module:
