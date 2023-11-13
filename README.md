@@ -11,6 +11,7 @@ Step 3: Console.log functions to use functions for example **console.log('Flight
 # **Sample Flight Data**  
 For demonstration purposes, sample flight data is included in the module:  
  // Sample flight data (for demonstration purposes)
+ 
     flights: [
         // Flight details including flight number, origin, destination, departure, arrival, and airline
         { flightNumber: 'ABC123', origin: 'Indonesia', destination: 'Singapore', departureTime: '08:00', arrivalTime: '11:00', airline: 'Batik Air' },
